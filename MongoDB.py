@@ -19,7 +19,7 @@ database = client['AAC']
 #--- Connects with 'accuser' to the Bid database ---#
 client2 = MongoClient(host='mongodb://localhost:27017/', 
     username='aacuser',
-    password='Smokey204!!',
+    password='password',
     authSource="Bid")
 database2 = client2['Bid']
 
