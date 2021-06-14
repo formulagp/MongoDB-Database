@@ -12,7 +12,7 @@ from datetime import date, timedelta, datetime
 #--- Connects with 'accuser' to the AAC database ---#
 client = MongoClient(host='mongodb://localhost:27017/',
     username='aacuser',
-    password='Smokey204!!',
+    password='password',
     authSource="AAC")
 database = client['AAC']
 
