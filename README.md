@@ -28,4 +28,4 @@ This version was created for my CS-499 class, which adds a few more features to 
 
 [1.0.0] - 2021-6-3
 
-Original project upload from CS-340 class. Project includes all necessary files to allow the user to perform CRUD operations on the AAC database.
+Original project upload from CS-340 class. Project includes all necessary files to allow the user to perform CRUD operations on the AAC database. When ran, the program connects the user to the AAC database and gives them one menu to perform CRUD operations on the database. The functions created to allow this manipulation are createAAC(), readAAC(), updateAAC(), and deleteAAC(). Each function will allow the user to manipulate the data inside the AAC database and save the changes. 
