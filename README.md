@@ -19,3 +19,13 @@ After the everything is properly installed, the next step would be to open the p
 ## Usage
 
 Once setup, the program is fairly simple to navigate. The user is first presented with a menu and given three options, connect to the AAC database, connect to the eBid database, or exit the program. Once a database option is selected, the program will login using the provided username and password from installation, and display a message that it has successfully connected to the database. From there another menu will give the user five more options, allowing them to perform CRUD (create, read, update, and delete) operations on the data or exit back to the database selection menu. Once finished, the user may select the exit option to return and disconnect from their selected database. Now they once again have the option to either connect to a new database or exit the program. Once all operations have been completed, the user may select option three at the database selection menu to properly exit the program.
+
+## Changelog
+
+[1.1.0] - 2021-6-17
+
+This version was created for my CS-499 class, which adds a few more features to display my understanding of database structures and design. The first new feature includes adding a new database to the program, which is created under client2 in the MongoDB Python file. This now allows the user to connect to another seperate database, rather than just the AAC database. A new main menu was also created that allows the user to switch between the two databases as much as they'd like, along with an exit option. Another menu was created to allow users to perform CRUD operations on the second eBid database. To make this work properly four new functions were created, createBid(), readBid(), updateBid(), and deleteBid(). These functions allow the user to interact and manipulate the data that is contained in the eBid database. 
+
+[1.0.0] - 2021-6-3
+
+Original project upload from CS-340 class. Project includes all necessary files to allow the user to perform CRUD operations on the AAC database.
