@@ -14,7 +14,7 @@ To properly run this program, Python and MongoDB must first be installed on the 
 
 ## Getting Started
 
-After the everything is properly installed, the next step would be to open the provided MongoDB.py file and alter the client1 and client2 information. Their is space to enter a username and password for each, which should match the previously created user logins created from the installation step. For client1 the code lines are at 14 and 15 and for client2 the code lines are at 21 and 22. If the databases were created using the same exact names as shown during the installation step, no further changes to the Python file are required. If the database was renamed, code lines 16,17,23, and 24 should reflect this by entering in the newly chosen database names.
+After the everything is properly installed, the next step would be to open the provided MongoDB.py file and alter the client1 and client2 information. Their is space to enter a username and password for each, which should match the previously created user logins created from the installation step. For client1 the code lines are at 14 and 15 and for client2 the code lines are at 21 and 22. If the databases were created using the same exact names as shown during the installation step, no further changes to the Python file are required. If the database was renamed, code lines 16, 17, 23, and 24 should reflect this by entering in the newly chosen database names.
 
 ## Usage
 
