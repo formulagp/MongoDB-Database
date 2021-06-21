@@ -1,7 +1,6 @@
 #--- Jay Authement ---#
 #--- Enhanced MongoDB Database ---#
-#--- Greg Stefanelli ---#
-#--- CS * 499 ---#
+#--- v[1.1.0] ---#
 
 #--- Using pretty print(pprint) to make results easier to view ---#
 from pprint import pprint
